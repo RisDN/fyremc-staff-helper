@@ -1,0 +1,53 @@
+.categories div h4 {
+  color: #2cc670;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
+
+.categories-holder {
+  background-color: #262626;
+  box-shadow: 0px 1px 1px 1px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 25px;
+  padding: 5px;
+
+  font-size: 20px;
+}
+.categories-title {
+  margin-top: 5px;
+  margin-bottom: 13px;
+}
+.command {
+  font-weight: bold;
+}
+
+.commandrow {
+  transition: 0.2s;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: 5px;
+  cursor: pointer;
+  background-color: #292929;
+  border-radius: 25px;
+}
+
+.commandrow:hover {
+  transition: 0.4s;
+  background-color: #1f1f1f;
+  transform: scale(1.01);
+}
+
+.info h4 {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  font-size: 35px;
+  color: #2cc670;
+  margin-bottom: 0px;
+  margin-top: 2%;
+}
+.info p {
+  font-size: 17px;
+}
+.info {
+  text-align: center;
+}
