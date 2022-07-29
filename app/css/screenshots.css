@@ -1,0 +1,26 @@
+.controllers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.screenshots-holder {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    text-align: center;
+}
+
+.image {
+    transition: 0.2s;
+    background-color: #292929;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.image img {
+    cursor: pointer;
+}
+
+.image:hover {
+    transition: 0.4s;
+    transform: scale(1.02);
+}

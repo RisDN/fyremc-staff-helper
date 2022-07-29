@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FyreMC Staff Segéd - Jogkörök</title>
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <script src="scripts/refresh.js" defer></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <ul>
-      <li class="logo">FyreMC Staff Segéd</li>
-      <li><a href="index.html">Főoldal</a></li>
-      <li><a href="messages.html">Üzenetek</a></li>
-      <li><a href="screenshots.html">Screenshotok</a></li>
-      <li><a href="ticketcommands.html">Ticket parancsok</a></li>
-      <li><a class="active" href="permissions.html">Jogkörök</a></li>
-      <li><a href="swearings.html">Káromkodások</a></li>
-      <li><a href="debuglog.html">Debug log kereső</a></li>
+        <li class="logo">FyreMC Staff Segéd</li>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="messages.html">Üzenetek</a></li>
+        <li><a href="screenshots.html">Screenshotok</a></li>
+        <li><a href="ticketcommands.html">Ticket parancsok</a></li>
+        <li><a class="active" href="permissions.html">Jogkörök</a></li>
+        <li><a href="swearings.html">Káromkodások</a></li>
+        <li><a href="debuglog.html">Debug log kereső</a></li>
     </ul>
     <div class="content">
-      <iframe
-        src="https://docs.google.com/document/d/1R97n2bTroJXnjVa2WcnjUG0XnRrost_emT3UMPEohA8/edit"
-        frameborder="0"
-        width="100%"
-        height="600"
-      ></iframe>
+        <iframe src="https://docs.google.com/document/d/1R97n2bTroJXnjVa2WcnjUG0XnRrost_emT3UMPEohA8/edit" frameborder="0" width="100%" height="600"></iframe>
     </div>
     <script>
-      const iframe = document.querySelector("iframe");
-      iframe.addEventListener("onload", () => {
-        const navbar =
-          iframe.contentWindow.document.querySelector("#docs-chrome");
-        navbar.style.display = "none";
-      });
+        const iframe = document.querySelector("iframe");
+        iframe.addEventListener("onload", () => {
+            const navbar =
+                iframe.contentWindow.document.querySelector("#docs-chrome");
+            navbar.style.display = "none";
+        });
     </script>
-  </body>
+</body>
+
 </html>

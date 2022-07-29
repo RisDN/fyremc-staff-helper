@@ -23,10 +23,10 @@ function fallbackCopyTextToClipboard(text) {
 }
 function copy(text) {
   if (!navigator.clipboard) {
-    fallbackCopyTextToClipboard(text);
+    fallbackCopyTextToClipboard("/" + text);
     return;
   }
-  navigator.clipboard.writeText(text).then(
+  navigator.clipboard.writeText("/" + text).then(
     function () {
       console.log("Async: Copying to clipboard was successful!");
     },
