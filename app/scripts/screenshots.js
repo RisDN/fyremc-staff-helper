@@ -82,7 +82,8 @@ function displayImages(filesList) {
 }
 
 function copyImage(filename) {
-    let path = `${screenshotsFolder}${filename}`
+    let path = `${screenshotsFolder}/${filename}`
+    CopyImageClipboard.copyImageToClipboard(path)
 }
 
 const { dialog } = require('@electron/remote')

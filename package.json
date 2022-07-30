@@ -11,6 +11,7 @@
     "license": "ISC",
     "dependencies": {
         "@electron/remote": "^2.0.8",
+        "copy-image-clipboard": "^2.1.2",
         "electron": "^19.0.9"
     }
 }

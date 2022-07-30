@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FyreMC Staff Segéd - Játékos kereső</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/playersearch.css">
+    <script src="scripts/refresh.js" defer></script>
+    <script src="scripts/playersearch.js" defer></script>
+</head>
+
+<body>
+    <ul>
+        <li class="logo">FyreMC Staff Segéd</li>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="messages.html">Üzenetek</a></li>
+        <li><a href="screenshots.html">Screenshotok</a></li>
+        <li><a href="ticketcommands.html">Ticket parancsok</a></li>
+        <li><a href="permissions.html">Jogkörök</a></li>
+        <li><a href="swearings.html">Káromkodások</a></li>
+        <li><a href="debuglog.html">Debug log kereső</a></li>
+        <li><a class="active" href="playersearch.html">Játékos kereső</a></li>
+    </ul>
+    <div class="content">
+        <div class="info">
+            <h4>Játékos kereső</h4>
+            <p>
+                Írd be a keresőbe a játékos nevét.
+            </p>
+        </div>
+        <div class="controllers">
+            <input type="text" placeholder="Játékosnév" id="player-input">
+            <button style="cursor: pointer;" id="search-button">Keresés</button>
+        </div>
+        <div class="playerinfo-display"></div>
+    </div>
+    <div class="author">Ris#2928</div>
+</body>
+
+</html>
